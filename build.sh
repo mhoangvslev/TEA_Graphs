@@ -1,1 +1,1 @@
-jupyter nbconvert --to PDF ./*.ipynb
+jupyter nbconvert --to PDF --template better-article.tplx *.ipynb
